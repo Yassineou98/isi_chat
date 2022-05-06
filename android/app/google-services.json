@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "784322145877",
+    "project_id": "isichat-2db89",
+    "storage_bucket": "isichat-2db89.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:784322145877:android:22d26fcde4e16734f7aedc",
+        "android_client_info": {
+          "package_name": "com.example.chat_isi_idisc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "784322145877-j86r4kf9939agph4u012i4fav5u6tgb6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8gCfan_n23xZ_FMeGv5No42XirI08LXQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "784322145877-j86r4kf9939agph4u012i4fav5u6tgb6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
