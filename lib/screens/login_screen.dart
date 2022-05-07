@@ -1,5 +1,6 @@
 // ignore_for_file: prefer_const_constructors, use_key_in_widget_constructors
 
+import 'package:chat_isi_idisc/screens/registration_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:chat_isi_idisc/screens/chat_screen.dart';
 import 'package:chat_isi_idisc/components/roundedbutton.dart';
@@ -37,7 +38,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   tag: 'logo',
                   child: Container(
                     height: 200.0,
-                    child: Image.asset('images/isi.png'),
+                    child: Image.asset('images/isi_logo.png'),
                   ),
                 ),
               ),
@@ -90,6 +91,13 @@ class _LoginScreenState extends State<LoginScreen> {
                   }
                 },
               ),
+              FlatButton(
+                textColor: Theme.of(context).primaryColor,
+                child: Text('Create a new account'),
+                onPressed: () {
+                  Navigator.pushNamed(context, RegistrationScreen.id);
+                },
+              )
             ],
           ),
         ),
