@@ -48,15 +48,16 @@ class _WelcomeScreenState extends State<WelcomeScreen> with SingleTickerProvider
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: <Widget>[
-            Container(
-              child:Hero(
+            Row(
+              children: <Widget>[
+                Hero(
                   tag: 'logo',
                   child: Container(
-                    child: Image.asset('images/isi_logo.png'),
-                    height: 100.0,
+                    child: Image.asset('images/isi.png'),
+                    height: 60.0,
                   ),
                 ),
-        /*DefaultTextStyle(
+        DefaultTextStyle(
           style: const TextStyle(
             fontSize: 45.0,
             fontWeight: FontWeight.w900,
@@ -67,7 +68,8 @@ class _WelcomeScreenState extends State<WelcomeScreen> with SingleTickerProvider
                      TypewriterAnimatedText('ISI CHAT'),
                    ]
                 ),
-            ),*/
+            ),
+  ]
       ),
             SizedBox(
               height: 48.0,
